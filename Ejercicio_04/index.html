@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con JS</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form id="userForm">
+        <label for="noum">Sujeto:</label>
+        <input type="text" id="noum" name="noum" required><br><br>
+
+        <label for="verb">Verbo:</label>
+        <input type="text" id="verb" name="verb" required><br><br>
+
+        <label for="adjetive">Adjetivo:</label>
+        <input type="text" id="adjetive" name="adjetive" required><br><br>
+
+
+        <label for="adverb">Adverbio:</label>
+        <input type="text" id="adverb" name="adverb" required><br><br>
+
+        <button type="button" onclick="saludar()">Enviar</button>
+    </form>
+
+    <h2 id="greeting"></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
