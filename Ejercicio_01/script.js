@@ -1,6 +1,6 @@
 
-let name = document.querySelector('#name')
-let nameOutput = document.querySelector('#name-output')
+const name = document.getElementById('name')
+const nameOutput = document.getElementById('name-output')
 
 name.addEventListener('input', (event) => {
   if (event.target.value) {

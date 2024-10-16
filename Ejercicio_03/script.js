@@ -1,6 +1,6 @@
-let name = document.getElementById('name')
-let quote = document.getElementById('quote')
-let quoteOutput = document.getElementById('quote-output')
+const name = document.getElementById('name')
+const quote = document.getElementById('quote')
+const quoteOutput = document.getElementById('quote-output')
 
 function getquote() {
     if (name.value && quote.value) {

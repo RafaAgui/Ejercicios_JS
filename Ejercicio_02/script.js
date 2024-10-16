@@ -1,7 +1,7 @@
 
-let name = document.querySelector('#name')
-let nameOutput = document.querySelector('#name-output')
-let nameLength = document.querySelector('#name-length')
+const name = document.getElementById('name')
+const nameOutput = document.getElementById('name-output')
+const nameLength = document.getElementById('name-length')
 
 name.addEventListener('input', (event) => {
   if (event.target.value) {
